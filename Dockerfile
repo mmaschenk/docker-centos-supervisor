@@ -7,8 +7,8 @@ RUN easy_install pip
 RUN pip install supervisor
 RUN mkdir /var/log/supervisor
 
-ADD supervisord.conf /etc/supervisor/supervisord.conf
-CMD [ "/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/supervisord.conf"]
+ADD supervisord.conf /etc/supervisord.conf
+CMD [ "/usr/bin/supervisord", "-n" ]
 
 
 
