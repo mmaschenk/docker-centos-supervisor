@@ -6,3 +6,5 @@ This image is provided as a base image for applications to be run under supervis
 ## image-id
 
 The image can be referred to in Dockerfiles or docker-compose files as **devops.dev-ict.tudelft.nl/centos-supervisor**
+
+See https://devops.dev-ict.tudelft.nl/ui/#/repository/library/centos-supervisor/ for available tags.
