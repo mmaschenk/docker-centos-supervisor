@@ -8,7 +8,8 @@ RUN pip install supervisor
 RUN mkdir /var/log/supervisor
 
 ADD supervisord.conf /etc/supervisord.conf
-CMD [ "/usr/bin/supervisord", "-n" ]
+ADD start.sh /sbin/
+CMD [ "/sbin/start.sh" ]
 
 
 
