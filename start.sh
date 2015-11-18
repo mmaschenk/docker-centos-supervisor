@@ -9,4 +9,4 @@ if [ ! -z "$INITSCRIPT" ]; then
   fi
 fi
 
-/usr/bin/supervisord -n
+/usr/bin/supervisord -n -c /etc/supervisord.conf
